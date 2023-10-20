@@ -1,24 +1,21 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Welcome to [Web CHallenge]
 
-Things you may want to cover:
+This README provides essential information for setting up and running the application.
 
-* Ruby version
+## Install Dependences 
 
-* System dependencies
+run bundle install
 
-* Configuration
+## Create Database
 
-* Database creation
+run rails db:setub_database
 
-* Database initialization
+### Prerequisites
 
-* How to run the test suite
+To run this application, you will need the following:
 
-* Services (job queues, cache servers, search engines, etc.)
+- Ruby (version 3.0.6)
+- PostgreSQL (version 14)
 
-* Deployment instructions
-
-* ...
