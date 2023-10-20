@@ -1,0 +1,11 @@
+<div class="center-content">
+  <p class="notice"><%= notice %></p>
+
+  <%= render @palestra %>
+
+  <div class="actions">
+    <%= link_to "Editar", edit_palestra_path(@palestra), class: "btn-edit" %> |
+    <%= link_to "Retornar", palestras_path, class: "btn-back" %>
+    <%= button_to "Deletar", @palestra, method: :delete, class: "btn-destroy", style: "margin-top: 20px" %>
+  </div>
+</div>

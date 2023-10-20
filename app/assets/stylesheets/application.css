@@ -1,0 +1,70 @@
+/* Estilo personalizado para a navbar */
+
+.navbar-custom {
+	background-color: #ff6900; /* Laranja */
+}
+.navbar-custom .navbar-brand {
+  font-size: 30px;
+	color: #ffffff; /* Branco */
+}
+.navbar-custom .navbar-nav .nav-link {
+  font-size: 22px;
+	color: #ffffff; /* Branco */
+}
+/* Estilo para centralizar o conteúdo */
+.center-content {
+  text-align: center; /* Center the content horizontally */
+  margin-top: 100px; /* Adjust the top margin as needed */
+}
+.center-content h1 {
+	color: #000000; /* Laranja */
+	font-size: 36px;
+}
+.navbar-custom .navbar-nav .nav-link:hover {
+	transform: scale(1.1); /* Outra cor quando o mouse passa por cima (exemplo: vermelho) */
+}
+.form-errors {
+  color: red;
+}
+.form-label {
+  display: block;
+  font-weight: bold; /* Adiciona negrito ao rótulo */
+}
+.form-input {
+  text-align: center;
+  width: 50%;
+  height: calc(1.5em + 0.75rem + 2px);
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+p {
+  color: green;
+  font-size: 18px;
+  margin: 10px 0;
+}
+a {
+  text-decoration: none;
+  color: #007BFF;
+}
+a:hover {
+  text-decoration: underline;
+}
+button {
+  background-color: #DC3545;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  margin: 10px;
+}
+button:hover {
+  background-color: #C82333;
+}

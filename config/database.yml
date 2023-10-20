@@ -1,0 +1,21 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  pool: 5
+  username: postgres
+  password: 1908
+  host: localhost
+
+development:
+  <<: *default
+  database: webchallenge_development
+
+test:
+  <<: *default
+  database: webchallenge_test
+
+production:
+  <<: *default
+  database: webchallenge_production
+  username: seu_usuario_do_banco_de_dados
+  password: sua_senha_do_banco_de_dados

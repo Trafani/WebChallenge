@@ -1,0 +1,28 @@
+<div class="center-content">
+  <p style="color: green"><%= notice %></p>
+
+  <h1>Palestras</h1>
+
+  <div class="table-responsive">
+    <table class="table table-bordered">
+      <thead>
+        <tr>
+          <th>Nome</th>
+          <th>Duração (minutos)</th>
+          <th>Visualizar</th>
+        </tr>
+      </thead>
+      <tbody>
+        <% @palestras.each do |palestra| %>
+          <tr>
+            <td><%= palestra.nome %></td>
+            <td><%= palestra.duracao %> min</td>
+            <td>
+              <%= link_to "Show", palestra, class: "btn btn-info" %>
+            </td>
+          </tr>
+        <% end %>
+      </tbody>
+    </table>
+  </div>
+</div>
