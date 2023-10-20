@@ -19,3 +19,6 @@ To run this application, you will need the following:
 - Ruby (version 3.0.6)
 - PostgreSQL (version 14)
 
+### Main URL
+
+- localhost:port/palestras
